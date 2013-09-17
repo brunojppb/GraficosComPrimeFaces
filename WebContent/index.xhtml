@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Gráficos com Primefaces</title>
+	<h:outputStylesheet library="bootstrap/css" name="bootstrap.min.css" />
+	<h:outputStylesheet library="bootstrap/css"
+		name="bootstrap-responsive.min.css" />
+</h:head>
+<body style="text-align: center">
+	<div>
+		<h:graphicImage library="img" name="topo.png" />
+	</div>
+	<div style="margin-top: 20px">
+		<h:outputLink value="primecolunas.jsf" styleClass="btn btn-block">
+			<h:outputText value="Gráfico de Colunas" />
+		</h:outputLink>
+		<br />
+		<h:outputLink value="primepizza.jsf" styleClass="btn btn-block">
+			<h:outputText value="Gráfico de Pizza" />
+		</h:outputLink>
+		<br />
+		<h:outputLink value="enquete.jsf" styleClass="btn btn-block">
+			<h:outputText value="Enquete Dinamica" />
+		</h:outputLink>
+		<br />
+		<hr />
+	</div>
+</body>
+</html>
